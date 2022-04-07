@@ -24,7 +24,7 @@ header a {
 }
 /* header */
 header {
-    /* height: 40px; */
+    height: 40px;
     display: flex;
     justify-content: flex-end;
 }
@@ -37,13 +37,17 @@ header {
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
+    height: calc(100vh - 140px);
 }
+
+
 
 .img-webcam {
     width: 15%;
     height: 160px;
     position: relative;
-    margin-right: 5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 .img-webcam img {
@@ -63,7 +67,7 @@ header {
 /* footer */
 
 footer {
-    height: 81px;
+    height: 100px;
     background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: space-between;
