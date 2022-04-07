@@ -1,0 +1,119 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header a {   
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.background-page {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+/* header */
+header {
+    /* height: 40px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* main */
+#zoom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+
+.img-webcam {
+    width: 15%;
+    height: 200px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.img-webcam img {
+    height: 100%;
+    width: 100%;    
+}
+
+.microfono {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+    background-color: rgb(190, 190, 190, 0.3);
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+}
+
+#interazioni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#interazioni a {
+    margin-right: 10px;
+}
+
+.big-icon {
+    font-size: 40px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#menu div {
+    margin: 10px;
+}
+
+#menu .item-menu i {
+    font-size: 30px;
+}
+
+.fa-share-from-square {
+    color: green;
+}
+
+#small-icon {
+    font-size: 15px;
+}
+
+#exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+    width: 10%;
+}
+
+.red {
+    color: red;
+}
