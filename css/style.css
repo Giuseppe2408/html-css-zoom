@@ -37,7 +37,7 @@ header {
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
-    height: calc(100vh - 140px);
+    height: calc(100vh - 120px);
 }
 
 
@@ -67,7 +67,7 @@ header {
 /* footer */
 
 footer {
-    height: 100px;
+    height: 80px;
     background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: space-between;
