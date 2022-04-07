@@ -31,16 +31,17 @@ header {
 
 /* main */
 #zoom {
+    padding: 25px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
 .img-webcam {
     width: 15%;
-    height: 200px;
+    height: 160px;
     position: relative;
     margin-right: 5px;
 }
@@ -62,7 +63,7 @@ header {
 /* footer */
 
 footer {
-    height: 100px;
+    height: 81px;
     background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: space-between;
@@ -80,7 +81,7 @@ footer {
 }
 
 .big-icon {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #menu {
@@ -95,7 +96,7 @@ footer {
 }
 
 #menu .item-menu i {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .fa-share-from-square {
