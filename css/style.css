@@ -115,13 +115,12 @@ footer {
 }
 
 #exit {
+    display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: red;
+    padding: 30px;
     background-color: rgb(66, 66, 66);
-    width: 10%;
 }
 
-.red {
-    color: red;
-}
